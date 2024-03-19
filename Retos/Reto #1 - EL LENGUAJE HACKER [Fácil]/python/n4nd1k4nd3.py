@@ -27,8 +27,10 @@ def leet_Converter(string):
     return new_string
 
 
-proba_1 = leet_Converter("lert")
+proba_1 = leet_Converter("leet")
 print(proba_1)
 
+proba_2 = leet_Converter("laat")
+print(proba_2)
 
 # la idea es convertir letras
