@@ -17,15 +17,17 @@ def leet_Converter(string):
         't': '7',
         'a': '4'     
     }
+    new_string = ""
+    claves = leet_dict.keys()
     for i in string:
-        if i in leet_dict.keys():
-            return string.join(leet_dict.values())
+        if i in claves:
+            new_string += leet_dict[f"{i}"] 
         else:
-            return string.join(leet_dict.keys())
-    return string
+            new_string += f'{i}'
+    return new_string
 
 
-proba_1 = leet_Converter("leet")
+proba_1 = leet_Converter("lert")
 print(proba_1)
 
 
