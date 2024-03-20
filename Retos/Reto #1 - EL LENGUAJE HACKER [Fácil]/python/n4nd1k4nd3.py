@@ -15,7 +15,13 @@ def leet_Converter(string):
         'l': '1',
         'e': '3',
         't': '7',
-        'a': '4'     
+        'a': '4',
+        'z': '2', 
+        's': '5',
+        'b': '6',
+        'g': '9',
+        'o': '0'
+
     }
     new_string = ""
     claves = leet_dict.keys()
